@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
