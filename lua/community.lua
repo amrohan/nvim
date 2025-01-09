@@ -13,4 +13,6 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- markdown plugin
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  -- status line
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
 }
