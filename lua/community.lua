@@ -11,4 +11,6 @@ return {
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  -- markdown plugin
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 }
