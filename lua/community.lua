@@ -8,12 +8,31 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.scrolling.mini-animate" },
+  -- Auto search
   { import = "astrocommunity.motion.flash-nvim" },
+  --colorscheme
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   -- markdown plugin
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
-  -- status line
-  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- Status Line
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+
+  --Editor
+  -- Highlights the current word under cursor
   { import = "astrocommunity.color.mini-hipatterns" },
+  -- Smooth scroll animation
+  { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.motion.mini-ai" },
+  -- Highlights and animate the indent line
+  { import = "astrocommunity.indent.mini-indentscope" },
+
+  -- Languages
+  -- This adds typescript pack default
+  { import = "astrocommunity.pack.angular" },
+  -- Tailwind css Highlights
+  { import = "astrocommunity.pack.tailwindcss" },
+  -- Csharp
+  { import = "astrocommunity.pack.cs-omnisharp" },
+  -- Prisma
+  { import = "astrocommunity.pack.prisma" },
 }
