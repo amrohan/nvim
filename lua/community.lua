@@ -15,7 +15,7 @@ return {
   -- markdown plugin
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
   -- Status Line
-  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
 
   --Editor
   -- Highlights the current word under cursor
