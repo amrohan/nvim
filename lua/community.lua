@@ -11,7 +11,9 @@ return {
   -- Auto search
   { import = "astrocommunity.motion.flash-nvim" },
   --colorscheme
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  -- { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  -- rosepine
+  { import = "astrocommunity.colorscheme.rose-pine" },
   -- markdown plugin
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
   -- Status Line
@@ -25,6 +27,8 @@ return {
   { import = "astrocommunity.motion.mini-ai" },
   -- Highlights and animate the indent line
   { import = "astrocommunity.indent.mini-indentscope" },
+  -- Multiple cursor
+  { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
 
   -- Languages
   -- This adds typescript pack default
