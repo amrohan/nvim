@@ -32,7 +32,7 @@ return {
 
   -- Languages
   -- This adds typescript pack default
-  { import = "astrocommunity.pack.angular" },
+  -- { import = "astrocommunity.pack.angular" },
   -- Tailwind css Highlights
   { import = "astrocommunity.pack.tailwindcss" },
   -- Csharp
